@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sanugo Services Inc</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+      background-position: center;
+  background-size: cover;
+  background-image: url("images/techproject.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <img src="images/logo.png" width="130" height="100">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-th"></i> OUR SERVICES</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">OUR SERVICES</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"><h2 style="color: lavenderblush; font-size: 48! important;">Sanugo Services IT Solutions Inc</span><br></h2>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">The Leading IT project management company.</span><br>
+    <span class="w3-large"> The Leading IT project management company
+    </span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">About Us</p>
+      <p text-align:center;>Sanugo Services IT Solutions Inc is a leading IT  project management company based in Calgary,Alberta,Canada,founded and directed by Samuel Nwasimuo and Jane Ekegbu,Our company specializes in delivering innovative and IT solutions to diverse clients spanning across North America and Africa with a focus on excellence,reliability and customer satisfaction,Sanugo Services Inc has established a strong reputation for providing top-tier project management services. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Clientele</p>
+      <p text-align:center;> Sanugo Services IT Solutions Inc offer a comprehensive range of services tailored to meet the diverse needs of our clients.We have built a strong and diverse client base across North America and Africa.Our Clientele concist of various industries, including healthcare, finance, education, manufacturing, and government sectors.We have a commitment to understanding our clients' unique requirements and delivering tailored solutions has earned us a reputation for exceeding expectations.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Experienced Workers</p>
+      <p text-align:center;> The company's team of experienced project managers has a wealth of knowledge and expertise in managing projects from conception to completion , And they are committed to ensuring that their clients projects are completed on time, within budget,and to the highest quality standards.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Reliable Industrial Services</p>
+      <p text-align:center;>The company's team has a wealth of knowledge and expertise in providing reliable industrial services , And they are committed to ensuring that their clients projects are completed on time, within budget,and to the highest quality standards. </p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Projects</h3>
+      <p>See What We Have Completed Recently!</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="images/roll.png" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">Samuel Nwasimuo and Jane Ekegbu bring a wealth of experience and expertise to the company, ensuring its success and growth in the IT industry. </p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/CEO.jfif" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Sam Nwasimuo</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>As a seasoned IT professional with over 15 years of experience, Samuel Nwasimuo has a proven track record of leading and managing complex IT projects. His deep understanding of project management methodologies, coupled with his technical proficiency, enables him to effectively oversee project lifecycles from initiation to successful implementation. Samuel's strategic vision and commitment to quality have propelled Sanugo Services Inc to the forefront of the industry. He is also on the board of directors Nickvile Corporate Limited with Subsidiaries in New York USA and Lagos Nigeria. </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact: +15875778361</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/director.jfif" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Ekegbu</h3>
+          <p class="w3-opacity">Co-Director</p>
+          <p>Jane Ekegbu is a highly skilled and dynamic professional in the field of IT project management. With a strong background in business analysis and a keen eye for detail, she excels at translating client requirements into effective technical solutions. Jane's leadership and communication skills are instrumental in fostering collaboration and maintaining strong relationships with clients and stakeholders. Her dedication to client satisfaction and innovation drives Sanugo Services Inc success in delivering cutting-edge solutions.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/IT guy.jfif" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mr A</h3>
+          <p class="w3-opacity">Designer</p>
+          <p> </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/images 2.jfif" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Mr C </h3>
+          <p class="w3-opacity">Designer</p>
+          <p> </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="images/support.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/techproject.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/cloud.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="images/jobs.jfif" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <ul>
+      <p><li>IT Project Management.</li></p>
+      <p><li>Software Development.</li></p>
+      <p><li>Cloud Solutions.</li></p>
+      <p><li>IT Consulting/Training</li> </p>
+      <p><li>Support And Maintainance </p>
+    </ul>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>IT Project Management.</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Software Development.</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Cloud Solutions.</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">80%</div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>IT Consulting/Training</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:65%">75%</div>
+        <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Support And Maintainance</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:65% ">70%</div>
+        
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<!-- Pricing Section -->
+
+<h2 style="color: darkblue; text-align: center;"><b>OUR SERVICES</b></h2>
+<P style="color: darkblue;"><u>IT Project Management</u></P>
+<P>Our experienced project management team ensures the successful planning, execution, and delivery of IT projects within defined timelines and budgets. We employ industry best practices and methodologies to achieve optimal results.
+  <p style="color: darkblue;"> <u>Software Development</u></p>
+  <p> We specialize in developing scalable and robust software solutions, including web applications, mobile apps, and enterprise software. Our development team is proficient in a variety of programming languages and frameworks.</p>
+<p style="color: darkblue;"> <u>Cloud Solutions</u></p>
+<p>Sanugo Services Inc helps clients leverage the power of cloud computing to enhance their operational efficiency, scalability, and data security. We provide cloud strategy consulting, migration services, and ongoing management of cloud-based infrastructure.</p>
+<p style="color: darkblue;"> <u>IT Consulting/ Training</u></p>
+<p> Our team of experienced consultants offers strategic guidance and expertise across various IT domains. From system architecture design to cybersecurity audits, we help clients make informed decisions to optimize their IT infrastructure and operations. We also conduct training with these niche Lean Sigma, SAFe Agile, CSM, PSM.</p>
+<p style="color: darkblue;"> <u>Support and Maintenance</u></p>
+<p>We provide comprehensive support and maintenance services to ensure the smooth functioning and longevity of our clients' IT systems. Our team is available round the clock to address any technical issues and provide timely solutions.</p>
+<p style="color: darkblue;"><u> Conclusion </u></p>
+<p>Sanugo Services Inc IT Solutions, under the expert leadership of Samuel Nwasimuo and Jane Ekegbu, continues to be a trusted partner for organizations seeking reliable and innovative IT project management services. With a customer-centric approach, a talented team of professionals, and a commitment to excellence, TechMasters is poised to drive digital transformation and help clients achieve their IT goals in a rapidly evolving business landscape.</p>
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> 436 Templeview Drive NE Calgary T1Y4L2</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +15875778361</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> <a href="mailto:email@Samuel.nwasimuo@sanugoservices.com">Send Email</a>Samuel.nwasimuo@sanugoservices.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.4305988046576!2d-113.94449922392789!3d51.08206034168738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537163581bdef439%3A0x147ad8bcc6af172e!2s436%20Templeview%20Dr%20NE%2C%20Calgary%2C%20AB%20T1Y%204L2%2C%20Canada!5e0!3m2!1sen!2sng!4v1686093673160!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"><a href="http://www.facebook.com/GospelJerry">Gospel Jerry </a> </i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by Gospel-Tech</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
